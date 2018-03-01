@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Montserrat' ;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/MaterialIcons-Regular.ttf');
+}
+div.main{
+    position: relative;
+    margin-left: 50px;
+    width: 90%;
+    padding-top: 200px;
+}
+#divulgaLbl{
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba( 28, 28, 28, 0.618 );
+    
+}
+#nome,#email{
+    text-transform: uppercase;
+}
+.ball{
+    border-radius: 50%;
+    background-color: rgba(62, 61, 61, 0.463);
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    position: relative;
+    left: 15px;
+    top: 10px;
+    margin: 0 8px;
+}
+.lblSwitch{
+    font-family: Helvetica;
+    font-size: 20px;
+}
+button{
+    margin-top: 10px;
+    width: 300px;
+    font-weight: 800;
+}
+.disappear{
+    display: none;
+}
+.btnLabel{
+    background-color: #e53935;
+    padding: 15px;
+    padding-left: 30px;
+    font-weight: 800;
+    font-family: 'Montserrat';
+    color: white;
+    position: relative;
+    top: 6px;
+    left: -20px;
+    width: 120px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: inline-block;
+}
+.row{
+    margin-bottom: 25px;
+}
+label,.setColor,.input-field>label{
+    color: #333;
+}
+#loadingDiv,#loadingDiv2{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    text-align: center;
+    vertical-align: middle;
+    transition: all 0.5s;
+    opacity: 0;
+    display: none;    
+}
+#loadingDiv{
+    background-color: white;
+}
+#loadingDiv2{
+    background-color: #3e3d5c;
+}
+#legendLoading,#legendLoading2{
+    display: block;
+    position: relative;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    color: #20c4c8;
+    text-shadow: 2px 3px 4px rgba(78, 78, 78, 0.6);
+}
+#legendLoading{
+    top: 100px;
+}
+#legendLoading2{
+    top: 40px;
+}
+.splitter{
+    border: 0.5px solid rgba(51, 51, 51, .3);
+    height: 0px;
+    width: 0px;
+    border-top-width: 26px;
+    margin: 0px 40px;
+    position: relative;
+    top: 20px;
+    display: inline;
+}
+body{
+    background: -webkit-radial-gradient(circle, #ffffff, #f7f7f7, #ecf0f1); 
+    background: -o-radial-gradient(circle, #ffffff, #f7f7f7, #ecf0f1);
+    background: -moz-radial-gradient(circle, #ffffff, #f7f7f7, #ecf0f1);
+    background: radial-gradient(circle, #ffffff, #f7f7f7, #ecf0f1); 
+}
+select{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+}
+.nplf{
+    padding-left: 0px !important;
+}
+.separador{
+    margin: 20px 0px;
+    width: 100%;
+    position: relative;
+
+}
+.btnTop{
+    width: 170px;
+}
+.toast{
+    background-color: rgba(244, 67, 54, .9);
+}
+
+.logout{
+    position: fixed;
+    margin-top: 0px;
+    width: auto;
+    right: 10px;
+}
+.refreshEstoque{
+    position: fixed;
+    margin-top: 50px;
+    width: auto;
+    right: 10px;
+}
